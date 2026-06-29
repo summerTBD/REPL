@@ -1,7 +1,7 @@
 use crate::lexer::Lexer;
 use crate::token::Token;
-use crate::{AST, token::Token::LParen};
-use AST::{Expr, Op};
+use crate::{ast, token::Token::LParen};
+use ast::{Expr, Op};
 
 pub struct Parser {
     lexer: Lexer,
